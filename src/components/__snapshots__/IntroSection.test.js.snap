@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the element correctly 1`] = `
+<section
+  class="intro [ min-h-screen ] [ flex justify-center items-center flex-col ] "
+  data-testid="intro"
+>
+  <h1
+    class="name text-5xl"
+  >
+    Nama Saya Budi
+  </h1>
+  <div
+    class="tag-line text-2xl mt-5"
+  >
+    Budi Pemain Bola
+  </div>
+  <div
+    class="links flex mt-5"
+  >
+    <a
+      href="https://linkedin.com/in/budi"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="linkedin"
+        class="w-10 h-10 m-3"
+        src="linkedin-brands.svg"
+      />
+    </a>
+    <a
+      href="https://github.com/budi"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="linkedin"
+        class="w-10 h-10 m-3"
+        src="github-brands.svg"
+      />
+    </a>
+    <a
+      href="https://twitter.com/budi"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="linkedin"
+        class="w-10 h-10 m-3"
+        src="twitter-brands.svg"
+      />
+    </a>
+  </div>
+</section>
+`;

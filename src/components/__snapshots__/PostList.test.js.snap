@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the title and content correctly 1`] = `
+<section
+  data-testid="post-list"
+>
+  <h2
+    class="[ text-3xl text-center ]"
+  >
+    Portfolio
+  </h2>
+  <div
+    class="[ flex justify-center flex-wrap ] p-10"
+  >
+    <section
+      class="mt-10 m-5 p-5 border border-white rounded-2xl"
+    >
+      <h2
+        class="text-xl font-bold"
+        data-testid="title"
+      >
+        Latest updates, August 1st
+      </h2>
+      <div
+        class="mt-5"
+        data-testid="content"
+      >
+        elided for readability
+      </div>
+    </section>
+    <section
+      class="mt-10 m-5 p-5 border border-white rounded-2xl"
+    >
+      <h2
+        class="text-xl font-bold"
+        data-testid="title"
+      >
+        Latest updates, August 1st
+      </h2>
+      <div
+        class="mt-5"
+        data-testid="content"
+      >
+        elided for readability
+      </div>
+    </section>
+  </div>
+</section>
+`;

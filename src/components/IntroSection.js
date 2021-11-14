@@ -4,7 +4,7 @@ import TwitterSvg from '../assets/images/twitter-brands.svg';
 
 function App() {
   return (
-    <section className="intro [ min-h-screen ] [ flex justify-center items-center flex-col ] ">
+    <section data-testid="intro" className="intro [ min-h-screen ] [ flex justify-center items-center flex-col ] ">
       <h1 className="name text-5xl">Nama Saya Budi</h1>
       <div className="tag-line text-2xl mt-5">
         Budi Pemain Bola
